@@ -2,7 +2,7 @@
 
 This repository contains the production code and interactive visualization modules for an unsupervised, topology-aware deep learning pipeline designed to monitor spatiotemporal fiber-optic Distributed Acoustic Sensing (DAS) data streams.
 
-## 📂 Core Repository Files
+## Core Repository Files
 
 ### 1. `run_pipeline_master.py`
 A standalone production execution script that automates the complete 12-stage pipeline sequentially:
@@ -19,7 +19,7 @@ An interactive Jupyter Notebook workspace that maps and displays the evaluated o
 
 ---
 
-## ⚙️ Core Dependencies & Setup
+## Core Dependencies & Setup
 This framework was compiled within an isolated Miniconda node running Python 3.10. Install core packages via:
 ```bash
 pip install numpy scipy scikit-learn pywavelets torch matplotlib h5py tqdm
@@ -27,7 +27,7 @@ pip install numpy scipy scikit-learn pywavelets torch matplotlib h5py tqdm
 
 ---
 
-## 📊 Pipeline Performance Matrix
+## Pipeline Performance Matrix
 The core dispatcher prints the following verified experimental benchmarks upon execution termination:
 
 | Pipeline Processing Stage | Cum. SNR | Incremental $\Delta$SNR | Separability (JSD) |
@@ -40,5 +40,5 @@ The core dispatcher prints the following verified experimental benchmarks upon e
 
 ---
 
-## 🎓 Project Acknowledgments
+## Project Acknowledgments
 This research was conducted at the Department of Computing, **Universiti Teknologi PETRONAS (UTP)**, and was generously funded under the **TOTALENERGIES EP Malaysia Research Grant** for the project titled *"Data Analytics and Visualization Development System for Subsurface CO₂ Storage and Fluid Production."* Open-source dataset arrays were provided by the transnational **DASGAS** project team at the **ECCSEL Svelvik CO₂ Field Lab** testing facility.
