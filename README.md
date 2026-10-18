@@ -1,4 +1,4 @@
-# Unsupervised Spatiotemporal Autoencoder with Graph Laplacian Diffusion for DAS Signal Analysis
+# Unsupervised Autoencoder with Monte Carlo Dropout for Epistemic Uncertainty Quantification for Spatiotemporal Signal Analysis
 
 This repository contains the production code and interactive visualization modules for an unsupervised, topology-aware deep learning pipeline designed to monitor spatiotemporal fiber-optic Distributed Acoustic Sensing (DAS) data streams.
 
